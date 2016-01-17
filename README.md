@@ -9,9 +9,9 @@ type system is rudimentary, and the macros are extremely unhygienic. I got
 bored before implementing `call/cc`, but all of the framework for it is there.
 
 Some features:
-    * Basic lispish syntax (`lambda`, `let`, `define`, `if`, etc)
-    * A slightly janky macro system
-    * More sophisticated syntax (`let*`, `cond`, etc) defined through macros
-    * A mostly bootstrapped standard library
-    * A mark-and-sweep garbage collector
-    * A terrible hand-written lexer/parser
+   * Basic lispish syntax (`lambda`, `let`, `define`, `if`, etc)
+   * A slightly janky macro system
+   * More sophisticated syntax (`let*`, `cond`, etc) defined through macros
+   * A mostly bootstrapped standard library
+   * A mark-and-sweep garbage collector
+   * A terrible hand-written lexer/parser
